@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "dev:aldersmith": "npm --prefix templates/aldersmith run dev",
-    "dev:durra": "npm --prefix templates/durra run dev"
+    "dev:durra": "npm --prefix templates/durra run dev",
+    "dev:jewel": "npm --prefix templates/jewel run dev"
   },
   "devDependencies": {
     "vite": "^5.4.0"

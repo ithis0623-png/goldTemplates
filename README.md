@@ -12,6 +12,7 @@ Each template is completely self-contained in its own standalone directory insid
 | :--- | :--- | :--- | :---: |
 | [**Aldersmith Jewellery**](./templates/aldersmith) | • Photorealistic 3D Solitaire Ring with orbital drag<br>• Real-time CAD caliper lines & interactive loupe<br>• Floating glass metal/gemstone configurator<br>• 5-Stage 3D bench mandrel scrub with temperature HUD<br>• Parallax lookbook horizontal carousel | Three.js (r169)<br>WebGL Shaders<br>Framer Motion | `:3000` |
 | [**Durra Luxury & Watches**](./templates/durra) | • South Sea pearl necklace with drop shadow typography overlap<br>• Progressive scroll-driven typography reading reveal<br>• Interactive statistics counter cards<br>• Continuous animated press marquee ticker<br>• Independent Swiss watch showcase & dark/light theme toggle | Framer Motion<br>SVG Geometry<br>CSS Shaders | `:3001` |
+| [**Jewel™ Premium Jewelry**](./templates/jewel) | • Full-screen luxury editorial hero & floating metallic actions<br>• Fine-bordered product showcase grid with hover reveals<br>• Animated interactive product detail state windows<br>• Gallery thumbnail switcher, counter, and accordion drawers<br>• 36 pages: collections, categories, shop & journal | Framer Motion<br>Accordion Drawers<br>Cart Modal | `:3002` |
 
 ---
 
@@ -33,6 +34,14 @@ To download **only** `durra`:
 ```bash
 npx degit ithis0623-png/goldTemplates/templates/durra my-durra
 cd my-durra
+npm install
+npm run dev
+```
+
+To download **only** `jewel`:
+```bash
+npx degit ithis0623-png/goldTemplates/templates/jewel my-jewel
+cd my-jewel
 npm install
 npm run dev
 ```
