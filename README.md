@@ -23,7 +23,7 @@ You don't need to clone the entire repository if you only want one template. Use
 
 To download **only** `aldersmith` into a fresh standalone folder:
 ```bash
-npx degit YOUR_GITHUB_USERNAME/REPO_NAME/templates/aldersmith my-aldersmith
+npx degit ithis0623-png/goldTemplates/templates/aldersmith my-aldersmith
 cd my-aldersmith
 npm install
 npm run dev
@@ -31,7 +31,7 @@ npm run dev
 
 To download **only** `durra`:
 ```bash
-npx degit YOUR_GITHUB_USERNAME/REPO_NAME/templates/durra my-durra
+npx degit ithis0623-png/goldTemplates/templates/durra my-durra
 cd my-durra
 npm install
 npm run dev
@@ -47,11 +47,11 @@ If you want to use standard `git`:
 
 ```bash
 # 1. Clone repository structure without downloading all files
-git clone --filter=blob:none --sparse https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME.git
-cd REPO_NAME
+git clone --filter=blob:none --sparse https://github.com/ithis0623-png/goldTemplates.git
+cd goldTemplates
 
 # 2. Select only the template you want
-git sparse-checkout set templates/aldersmith
+git sparse-checkout set templates/durra
 ```
 
 ---
@@ -60,8 +60,8 @@ git sparse-checkout set templates/aldersmith
 
 Clone the full repository:
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME.git
-cd REPO_NAME
+git clone https://github.com/ithis0623-png/goldTemplates.git
+cd goldTemplates
 npm install
 ```
 
