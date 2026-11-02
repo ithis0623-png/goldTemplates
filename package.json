@@ -1,0 +1,16 @@
+{
+  "name": "framer-motion-vault",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Curated collection of high-fidelity animated Framer templates featuring Three.js 3D WebGL, custom shaders, and Framer Motion dynamics.",
+  "workspaces": [
+    "templates/*"
+  ],
+  "scripts": {
+    "dev:aldersmith": "npm --prefix templates/aldersmith run dev",
+    "dev:durra": "npm --prefix templates/durra run dev"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
